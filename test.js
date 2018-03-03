@@ -19,3 +19,10 @@ if ( age == 21 ) {
 } else {
 	console.log("I hate you!");
 }
+
+var youngerThanMe = age - 1;
+
+while(youngerThanMe > 0) {
+	console.log("Someone age", ( age - youngerThanMe ), "is", youngerThanMe, "younger than me." );
+	youngerThanMe--;
+}
